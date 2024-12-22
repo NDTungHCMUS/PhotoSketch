@@ -1,0 +1,8 @@
+python=3.6
+pytorch=0.4
+numpy
+scipy
+torchvision
+dominate
+visdom
+Pillow==5.0.0
