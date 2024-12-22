@@ -1,4 +1,4 @@
-dataDir=
+dataDir=data
 
 python test_pretrained.py \
     --name pretrained \

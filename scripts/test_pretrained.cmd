@@ -1,4 +1,4 @@
-@set "dataDir="
+@set "dataDir=data"
 
 python test_pretrained.py ^
     --name pretrained ^
