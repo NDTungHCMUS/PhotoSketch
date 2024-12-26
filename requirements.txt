@@ -3,4 +3,5 @@ scipy
 torchvision
 dominate
 visdom
+openai
 Pillow==5.0.0
