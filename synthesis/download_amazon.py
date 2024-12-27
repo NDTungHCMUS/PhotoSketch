@@ -18,7 +18,7 @@ def download_images_for_item(item, category_dir):
     asin = item['asin']
     item_dir = os.path.join(category_dir, asin)
     os.makedirs(item_dir, exist_ok=True)
-    img_links = item['galleryThumbnails']
+    img_links = item['highResolutionImages']
     
     for img_link in img_links:
         try:

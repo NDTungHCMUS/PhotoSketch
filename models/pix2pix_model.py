@@ -169,6 +169,8 @@ class Pix2PixModel(BaseModel):
         image_pil = Image.fromarray(image_numpy.astype(np.uint8))
         image_pil = image_pil.resize((self.input_w[0], self.input_h[0]), Image.BICUBIC)
         name, _ = os.path.splitext(os.path.basename(self.image_paths[0]))
-        out_path = os.path.join(out_dir, name + self.opt.suffix + '.png')
+        out_path = os.path.join(out_dir, 'sketch_' + name + self.opt.suffix + '.png')
+        print("NAME:", name)
+        print("SELF OPT SUFFIX:", self.opt.suffix)
         image_pil.save(out_path)
        

@@ -3,7 +3,7 @@
 python test_pretrained.py ^
     --name pretrained ^
     --dataset_mode test_dir ^
-    --dataroot examples\ ^
+    --dataroot test_Tung\ ^
     --results_dir %dataDir%\Exp\PhotoSketch\Results\ ^
     --checkpoints_dir %dataDir%\Exp\PhotoSketch\Checkpoints\ ^
     --model pix2pix ^
